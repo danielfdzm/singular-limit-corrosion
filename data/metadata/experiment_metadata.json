@@ -1,0 +1,63 @@
+{
+  "domain": {
+    "lx": 0.02,
+    "ly": 0.01
+  },
+  "equilibrium_potentials": {
+    "phi_c": 0.2,
+    "phi_a": -0.2
+  },
+  "butler_volmer": {
+    "ic0": 0.0003,
+    "ia0": 0.03,
+    "c1": 83.13,
+    "c2": 35.63,
+    "a1": 35.63,
+    "a2": 83.13
+  },
+  "mesh_strategy": "graded",
+  "certification_threshold": 1e-09,
+  "benchmarks": {
+    "single_junction_mixed": {
+      "benchmark": "single_junction_mixed",
+      "mesh_strategy": "graded",
+      "physics_variant": "asymmetric",
+      "num_nodes": 9730,
+      "num_triangles": 19044,
+      "reference_file": "u0_single_junction_mixed.npz",
+      "boundary_upper_scale": 0.061598207589281216,
+      "num_certified_points": 17
+    },
+    "multi_junction_mixed": {
+      "benchmark": "multi_junction_mixed",
+      "mesh_strategy": "graded",
+      "physics_variant": "asymmetric",
+      "num_nodes": 15045,
+      "num_triangles": 29400,
+      "reference_file": "u0_multi_junction_mixed.npz",
+      "boundary_upper_scale": 0.17189309915940174,
+      "num_certified_points": 10
+    }
+  },
+  "width_scaling": {
+    "benchmark": "single_junction_mixed",
+    "variants": {
+      "asymmetric": {
+        "c1": 83.13,
+        "c2": 35.63,
+        "a1": 35.63,
+        "a2": 83.13,
+        "num_nodes": 5151,
+        "num_triangles": 10000
+      },
+      "symmetric": {
+        "c1": 59.379999999999995,
+        "c2": 59.379999999999995,
+        "a1": 59.379999999999995,
+        "a2": 59.379999999999995,
+        "num_nodes": 5151,
+        "num_triangles": 10000
+      }
+    }
+  }
+}

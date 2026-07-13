@@ -1,0 +1,3 @@
+dataset,num_admissible_certified,num_excluded_nonadmissible_certified,smallest_admissible_kappa,ratio_at_smallest_admissible_kappa
+corrugated_stress_summary.csv,5,0,5e-06,0.9376914112965631
+corrugated_stress_corrugated_six_junction_summary.csv,14,10,3e-07,0.942500461893062

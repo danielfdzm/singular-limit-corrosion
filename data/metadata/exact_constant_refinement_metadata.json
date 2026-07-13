@@ -1,0 +1,40 @@
+{
+  "benchmark": "single_junction_mixed",
+  "mesh_rule": "h_min = max(exact_refinement_cap, exact_refinement_factor * kappa) at the target point",
+  "exact_refinement_factor": 0.05,
+  "exact_refinement_cap": 1e-08,
+  "targets": [
+    {
+      "kappa": 0.0001,
+      "h_min": 5e-06,
+      "h_min_over_kappa": 0.05,
+      "num_nodes": 2701,
+      "num_triangles": 5184,
+      "continuation_levels": 7
+    },
+    {
+      "kappa": 1e-05,
+      "h_min": 5.000000000000001e-07,
+      "h_min_over_kappa": 0.05,
+      "num_nodes": 5151,
+      "num_triangles": 10000,
+      "continuation_levels": 10
+    },
+    {
+      "kappa": 1e-06,
+      "h_min": 5e-08,
+      "h_min_over_kappa": 0.05,
+      "num_nodes": 8385,
+      "num_triangles": 16384,
+      "continuation_levels": 13
+    },
+    {
+      "kappa": 1.3e-07,
+      "h_min": 1e-08,
+      "h_min_over_kappa": 0.07692307692307693,
+      "num_nodes": 11175,
+      "num_triangles": 21904,
+      "continuation_levels": 22
+    }
+  ]
+}

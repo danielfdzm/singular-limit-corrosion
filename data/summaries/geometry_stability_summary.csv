@@ -1,0 +1,3 @@
+benchmark,num_points,smallest_kappa,ratio_at_smallest_kappa,min_ratio,max_ratio
+"Multi rectangle, $N=3$",4,1.3e-07,0.6658068843477017,0.4230729053005549,0.6658068843477017
+"Corrugated, $N=4$",5,5e-06,0.9376914112965631,0.576991840185525,0.9376914112965631

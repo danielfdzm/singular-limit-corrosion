@@ -1,0 +1,20 @@
+{
+  "benchmark": "corrugated_six_junction_mixed",
+  "geometry": "corrugated_top",
+  "physics_variant": "balanced",
+  "butler_volmer": {
+    "ic0": 0.0029999999999999996,
+    "ia0": 0.0029999999999999996,
+    "c1": 59.379999999999995,
+    "c2": 59.379999999999995,
+    "a1": 59.379999999999995,
+    "a2": 59.379999999999995
+  },
+  "hmin": 2e-08,
+  "num_nodes": 57330,
+  "num_triangles": 112884,
+  "junction_count": 6,
+  "num_certified_points": 25,
+  "height_min": 0.007001326131208321,
+  "height_max": 0.01246899578867198
+}

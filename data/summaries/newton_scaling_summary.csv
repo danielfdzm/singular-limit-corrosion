@@ -1,0 +1,17 @@
+strategy,kappa,num_nodes,iterations,residual_inf,certified,solver
+uniform_tenfold,0.001,3321,344.0,0.04307017623336966,False,L-BFGS-B
+uniform_refined,0.001,1225,239.0,0.12431667243655492,False,L-BFGS-B
+uniform_matched,0.001,325,175.0,0.3020929271574837,False,L-BFGS-B
+graded_certified,0.001,318,6.0,4.31946145518225e-15,True,Newton
+uniform_tenfold,0.0001,4371,785.0,0.8329227047059852,False,L-BFGS-B
+uniform_refined,0.0001,1891,1127.0,1.3257284610027975,False,L-BFGS-B
+uniform_matched,0.0001,435,719.0,2.9423390353811105,False,L-BFGS-B
+graded_certified,0.0001,452,6.0,7.931155732165962e-15,True,Newton
+uniform_tenfold,1e-05,9453,4000.0,6.148625165087049,False,L-BFGS-B
+uniform_refined,1e-05,3655,2903.0,10.00860307785703,False,L-BFGS-B
+uniform_matched,1e-05,861,1597.0,21.113597306461106,False,L-BFGS-B
+graded_certified,1e-05,930,6.0,6.647460359943125e-15,True,Newton
+uniform_tenfold,1e-06,23653,4000.0,39.17333996281136,False,L-BFGS-B
+uniform_refined,1e-06,9453,4000.0,62.26809050795768,False,L-BFGS-B
+uniform_matched,1e-06,2415,4000.0,124.62469901863373,False,L-BFGS-B
+graded_certified,1e-06,2390,6.0,4.390932062392494e-14,True,Newton

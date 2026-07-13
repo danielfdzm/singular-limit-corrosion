@@ -1,0 +1,6 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+jupyterlab>=4.0
+ipykernel>=6.0
