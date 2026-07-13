@@ -169,13 +169,6 @@ See [`data/README.md`](data/README.md) for the included numerical records and
 [`paper_figures/README.md`](paper_figures/README.md) for the complete figure
 index.
 
-## Scope of the evidence
-
-These computations are consistency checks for the singular-limit asymptotics,
-not a finite-element convergence theorem. Residual, range, and exponential-
-clamping checks are applied before delicate energy ratios are reported; the
-notebook explains these filters and the remaining finite-window limitations.
-
 ## License
 
 The repository is released under the [MIT License](LICENSE).
