@@ -1,4 +1,4 @@
-# Singular-limit corrosion
+# Singular-limit in corrosion modeling
 
 Finite-element experiments for the singular limit of a nonlinear elliptic
 problem arising in electrochemistry. This repository accompanies the paper and
@@ -16,7 +16,7 @@ sharpens toward the cathode--anode step data. Away from the junction, the bulk
 solution approaches the mixed harmonic extension. Click any plot in this
 README for its vector PDF.
 
-## Mathematical question
+## Analytical model for corrosion
 
 For a domain $\Omega\subset\mathbb{R}^2$ with cathodic and anodic boundary
 parts $\Gamma_c$ and $\Gamma_a$, the potential $\phi_\kappa$ is harmonic in the
