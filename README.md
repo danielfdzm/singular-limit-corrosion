@@ -54,7 +54,14 @@ The numerical study tests four predictions:
 
 ## Start with the notebook
 
-Install the dependencies from the repository folder:
+Clone the repository and enter its folder:
+
+```bash
+git clone https://github.com/danielfdzm/singular-limit-corrosion.git
+cd singular-limit-corrosion
+```
+
+Install the dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -168,3 +175,7 @@ These computations are consistency checks for the singular-limit asymptotics,
 not a finite-element convergence theorem. Residual, range, and exponential-
 clamping checks are applied before delicate energy ratios are reported; the
 notebook explains these filters and the remaining finite-window limitations.
+
+## License
+
+The repository is released under the [MIT License](LICENSE).
