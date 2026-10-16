@@ -1,5 +1,11 @@
 # Singular-limit in corrosion modeling
 
+[![License: MIT](https://img.shields.io/github/license/danielfdzm/singular-limit-corrosion)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/danielfdzm/singular-limit-corrosion)](https://github.com/danielfdzm/singular-limit-corrosion/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/danielfdzm/singular-limit-corrosion)](https://github.com/danielfdzm/singular-limit-corrosion)
+[![Python 3](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)](requirements.txt)
+[![Jupyter notebook](https://img.shields.io/badge/notebook-Jupyter-F37626?logo=jupyter&logoColor=white)](numerical_experiments.ipynb)
+
 Finite-element experiments for the singular limit of a nonlinear elliptic
 problem arising in electrochemistry. This repository accompanies the paper and
 is written as a mathematical numerical study: the recommended entry point is
